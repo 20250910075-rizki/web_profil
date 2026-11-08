@@ -1,0 +1,29 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+body { background: #f0f0f0; }
+.header { background: #003d7a; color: white; text-align: center; padding: 25px 15px; }
+.header img { width: 90px; height: 90px; border-radius: 50%; object-fit: cover; border: 4px solid white; background: white; }
+.header h1 { font-size: 22px; margin: 10px 0 5px; }
+.header p { font-size: 13px; opacity: 0.9; }
+nav { background: white; border: 2px solid #003d7a; margin: 10px; padding: 12px; text-align: center; }
+nav a { color: #003d7a; text-decoration: none; font-weight: bold; font-size: 13px; margin: 0 10px; }
+nav a:hover { color: #00bfff; }
+.baner { background: white; border: 2px solid #003d7a; margin: 10px; padding: 20px; display: flex; gap: 20px; align-items: center; }
+.baner img { width: 130px; height: 130px; border-radius: 10px; object-fit: cover; background: white; border: 2px solid #003d7a; }
+.baner h2 { color: #003d7a; margin-bottom: 10px; font-size: 18px; }
+.baner p { margin-bottom: 6px; font-size: 14px; line-height: 1.5; }
+.container { display: flex; gap: 10px; margin: 10px; }
+main { flex: 3; }
+aside { flex: 1; }
+section { background: white; border: 2px solid #003d7a; padding: 20px; margin-bottom: 10px; }
+section h2 { color: #003d7a; border-bottom: 2px solid #003d7a; padding-bottom: 8px; margin-bottom: 12px; font-size: 16px; }
+table { width: 100%; font-size: 14px; line-height: 1.8; }
+table td { vertical-align: top; }
+.jadwal-table th, .jadwal-table td { border: 1px solid #999; padding: 8px; text-align: left; }
+.jadwal-table th { background: #003d7a; color: white; }
+ul { margin-left: 18px; line-height: 1.8; font-size: 14px; }
+.box { background: white; border: 2px solid #003d7a; padding: 15px; margin-bottom: 10px; }
+.box h3 { color: #003d7a; margin-bottom: 10px; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+.box a { color: #003d7a; text-decoration: none; }
+.box img { width: 100%; border-radius: 8px; margin-bottom: 8px; }
+.persib-box p { font-size: 13px; line-height: 1.5; }
+footer { background: #003d7a; color: white; text-align: center; padding: 15px; font-size: 13px; margin: 10px; }
